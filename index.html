@@ -19,23 +19,33 @@
     }
 
     iframe {
-      /* margin: 1vw; */
+      margin: 1vw; 
     }
 
-    .center {text-align:center;}
+    .center {
+      text-align:center;
+    }
 
-    .grid-container {
+
+
+    /* .grid-container {
       display: grid;
       margin: 1vw;
       grid-gap: 1vw;
       justify-content: center;
       grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-      /* align-items: center; */
-    }
-
-    /* @media only screen and (min-device-width: 375px) {
- 
+      align-items: center;
     } */
+
+
+
+    @media only screen and (min-device-width: 375px) {
+ 
+      main {
+      max-width: 500px;
+      }
+
+    }
 
   </style>
   <body>
@@ -44,7 +54,7 @@
         <h1 class="center">discog</h1>
         <p class="center">***</p>
         <br>
-        <div class="grid-container">
+        <main class="grid-container">
           <iframe class="grid-item" style="border: 0; width: 98vw; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=1209898950/size=large/bgcol=ffffff/linkcol=5B5DA3/transparent=true/" seamless><a href="http://exoticfever.bandcamp.com/album/kingwood">Kingwood by Pash</a></iframe>
           <br>
           <iframe class="grid-item" style="border: 0; width: 98vw; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1693991065/size=large/bgcol=ffffff/linkcol=5B5DA3/tracklist=false/artwork=small/track=1781573401/transparent=true/" seamless><a href="http://exoticfever.bandcamp.com/album/this-is-a-care-package-benefit-compilation-for-helping-individual-prostitutes-survive-hips">This Is A Care Package: Benefit Compilation for Helping Individual Prostitutes Survive (HIPS) by Pash</a></iframe>
@@ -70,7 +80,7 @@
           <iframe class="grid-item" style="border: 0; width: 98vw; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4112564320/size=large/bgcol=ffffff/linkcol=5B5DA3/tracklist=false/artwork=small/track=475920880/transparent=true/" seamless><a href="http://badfriendrecords.com/album/survive-vol-1-the-holidays">Survive Vol. 1: The Holidays by Soft Punch</a></iframe>
           <br>
           <iframe class="grid-item" style="border: 0; width: 98vw; height: 589px;" src="https://bandcamp.com/EmbeddedPlayer/album=3865999486/size=large/bgcol=ffffff/linkcol=5B5DA3/transparent=true/" seamless><a href="http://softpunchmusic.com/album/brother-sister-b-w-get-well-cass-demo">Brother, Sister b/w Get Well (cass. demo) by Soft Punch</a></iframe>
-        </div>
+        </main>
       </div>
     </div>
     <footer>
